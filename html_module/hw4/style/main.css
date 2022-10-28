@@ -1,0 +1,52 @@
+body{
+    
+}
+
+
+.header{
+display:flex;
+width:98%;
+height: 240px;
+margin-top: 6px;
+margin-bottom:6px;
+margin-left:auto;
+margin-right: auto;
+border-radius: 5px;
+background: lightslategray;
+text-align: center;
+justify-content: center;
+align-items: center;
+font-size: 48px;
+
+}
+
+.section_1{
+display:flex;
+background: lightgrey;
+width: 70%;
+height: 480px;
+border-radius: 5px;
+justify-content: center;
+align-items: center;
+font-size:40px;
+
+}
+
+.section_2{
+    display: flex;
+    width: 28%;
+    background: lightcyan;
+    height:480px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size:36px;
+}
+
+.wrapper{
+    display:flex;
+    justify-content: space-evenly;
+    margin-left:6px;
+    margin-right:6px;
+
+}

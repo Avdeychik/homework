@@ -31,11 +31,11 @@ console.log(typeof(c));
 
 const yourName = prompt('Enter your first name');
 const yourMName = prompt('Enter your middle name');
-const yourLNAme = prompt('Enter your last name');
+const yourBYear = prompt('Enter your year of birth');
 
 
     console.log(yourName);
     console.log(yourMName);
-    console.log(yourLNAme);
+    console.log(yourBYear);
 
 

@@ -10,17 +10,20 @@
     
 <script>
 
-let arr1 = [15, -14, 108, true, false, 'okten', 'ua', 3.14, 2.7, '5'];
-console.log(arr1[0]);
-console.log(arr1[1]);
-console.log(arr1[2]);
-console.log(arr1[3]);
-console.log(arr1[4]);
-console.log(arr1[5]);
-console.log(arr1[6]);
-console.log(arr1[7]);
-console.log(arr1[8]);
-console.log(arr1[9]);
+let arr1 = [];
+arr1[0] = 1;
+arr1[1] = -124;
+arr1[2] = true;
+arr1[3] = false;
+arr1[4] = 'hello';
+arr1[5] = 'world';
+arr1[6] = 3.14;
+arr1[7] = -2.7143;
+arr1[8] = 0;
+arr1[9] = '150';
+
+console.log(arr1);
+
 
 let obj1 = {
     title: 'Harry Potter',
@@ -45,96 +48,103 @@ let obj4 = {
 title: 'The Red and the Black',
 pageCount: 400,
 genre: 'Novel',
-authors: ['Stendhal', 59]
+authors: [
+    {
+        name: 'Stendhal',
+        age: 59
+    }
+]
 }
 
 let obj5 = {
     title: 'The Roadside Picnic',
     pageCount: 500,
     genre: 'Novel',
-    authors: ['Strugatsky', 79]
+    authors: [
+        {
+            name: 'Strugatsky',
+            age: 79
+        }
+    ]
 }
 
 let obj6 = {
     title: 'Crime and Punishment',
     pageCount: 600,
     genre: 'Novel',
-    authors: ['Dostoevsky', 59]
+    authors: [
+        {
+            name: 'Dostoevsky',
+            age: 59
+        }
+    ]
 }
 
-let user1 = {
-    name: 'Ivan',
-    username: 'vanya123',
-    password: 'vanya1234'
-}
+let users = [
+    {
+        name: 'Ivan',
+        username: 'vanya123',
+        password: 'vanya1234'
 
-let user2 = {
-    name: 'Vasya',
+}, 
+{
+    name: 'Vasily',
     username: 'vasya123',
     password: 'vasya1234'
-}
-
-let user3 = {
-    name: 'Petro',
-    username: 'petya123',
-    password: 'petya1234'
-}
-
-let user4 = {
-    name: 'Anastasiia',
-    username: 'nastya123',
-    password: 'nastya1234'
-}
-
-let user5 = {
-    name: 'Kateryna',
-    username: 'katya123',
-    password: 'katya1234'
-}
-
-let user6 = {
-    name: 'Dmytro',
-    username: 'dima123',
-    password: 'dima1234'
-}
-
-let user7 = {
+}, 
+{
     name: 'Bogdan',
     username: 'bodya123',
     password: 'bodya1234'
-}
-
-let user8 = {
-    name: 'Oleksandr',
-    username: 'sanya123',
-    password: 'sanya1234'
-}
-
-let user9 = {
+}, 
+{
+    name: 'Anatoliy',
+    username: 'tolyan123',
+    password: 'tolyan1234'
+},
+{
+    name: 'Viktor',
+    username: 'vitya123',
+    password: 'vitya1234'
+}, 
+{
     name: 'Snoop Dogg',
     username: 'snoop123',
     password: 'snoop1234'
+}, 
+{
+    name: 'Dmitry',
+    username: 'dima123',
+    password: 'dima1234'
+}, 
+{
+    name: 'Anastasiia',
+    username: 'nastya123',
+    password: 'nastya1234'
+}, 
+{
+    name: 'Akim',
+    username: 'akim123',
+    password: 'akim1234'
+},
+{
+    name: 'Oleksandr',
+    username: 'alex123',
+    password: 'alex1234'
 }
 
-let user10 = {
-    name: 'Bob Ross',
-    username: 'bob123',
-    password: 'bob1234'
-}
+]
 
-let arr2 = [user1, user2, user3, user4, user5, user6, user7, user8, user9, user10];
-console.log(arr2[0].password);
-console.log(arr2[1].password);
-console.log(arr2[2].password);
-console.log(arr2[3].password);
-console.log(arr2[4].password);
-console.log(arr2[5].password);
-console.log(arr2[6].password);
-console.log(arr2[7].password);
-console.log(arr2[8].password);
-console.log(arr2[9].password);
-
-
+console.log(users[0].password);
+console.log(users[1].password);
+console.log(users[2].password);
+console.log(users[3].password);
+console.log(users[4].password);
+console.log(users[5].password);
+console.log(users[6].password);
+console.log(users[7].password);
+console.log(users[8].password);
+console.log(users[9].password);
 
 </script>
 
